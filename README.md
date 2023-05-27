@@ -1,0 +1,1 @@
+Repository to store Java code snippets of all kinds.
