@@ -5,7 +5,7 @@ import structuralPatterns.adapter.round.RoundHole;
 import structuralPatterns.adapter.round.RoundPeg;
 import structuralPatterns.adapter.square.SquarePeg;
 
-public class Demo {
+public class MainAdapterApp {
     public static void main(String[] args) {
         RoundHole hole = new RoundHole(5);
         RoundPeg rpeg = new RoundPeg(5);
