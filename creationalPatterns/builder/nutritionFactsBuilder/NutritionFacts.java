@@ -1,4 +1,4 @@
-package creationalPatterns.builder;
+package creationalPatterns.builder.nutritionFactsBuilder;
 
 // Builder pattern as described in the book Effective Java 3rd Edition - Josh Bloch
 public class NutritionFacts {

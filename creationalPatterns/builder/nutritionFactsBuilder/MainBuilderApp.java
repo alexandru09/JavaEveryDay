@@ -1,4 +1,4 @@
-package creationalPatterns.builder;
+package creationalPatterns.builder.nutritionFactsBuilder;
 
 public class MainBuilderApp {
     public static void main(String[] args) {
