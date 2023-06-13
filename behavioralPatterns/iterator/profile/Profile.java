@@ -10,11 +10,11 @@ public class Profile {
     private String email;
     private Map<String, List<String>> contacts = new HashMap<>();
 
-    public Profile(String name, String email, Map<String, String... contacts) {
+    public Profile(String email, String name, String... contacts) {
         this.name = name;
         this.email = email;
 
-        for (String contact : contacts) {
+        for (String contact: contacts) {
             String[] parts = contact.split(":");
             String contactType = "friend", contactEmail;
             if (parts.length == 1) {
