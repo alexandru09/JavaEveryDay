@@ -1,6 +1,6 @@
-package behavioralPatterns.iterator.socialNetworks;
+package behavioral_patterns.iterator.socialNetworks;
 
-import behavioralPatterns.iterator.iterators.ProfileIterator;
+import behavioral_patterns.iterator.iterators.ProfileIterator;
 
 public interface SocialNetwork {
     ProfileIterator createFriendsIterator(String profileEmail);

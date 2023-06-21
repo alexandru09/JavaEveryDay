@@ -1,4 +1,4 @@
-package behavioralPatterns.strategy.strategies;
+package behavioral_patterns.strategy.strategies;
 
 /**
  * Common interface for strategies

@@ -1,8 +1,8 @@
-package behavioralPatterns.iterator.socialNetworks;
+package behavioral_patterns.iterator.socialNetworks;
 
-import behavioralPatterns.iterator.iterators.FacebookIterator;
-import behavioralPatterns.iterator.iterators.ProfileIterator;
-import behavioralPatterns.iterator.profile.Profile;
+import behavioral_patterns.iterator.iterators.FacebookIterator;
+import behavioral_patterns.iterator.iterators.ProfileIterator;
+import behavioral_patterns.iterator.profile.Profile;
 
 import java.util.ArrayList;
 import java.util.List;

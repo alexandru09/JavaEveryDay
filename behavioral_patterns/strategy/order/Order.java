@@ -1,6 +1,6 @@
-package behavioralPatterns.strategy.order;
+package behavioral_patterns.strategy.order;
 
-import behavioralPatterns.strategy.strategies.PayStrategy;
+import behavioral_patterns.strategy.strategies.PayStrategy;
 
 /**
  *  https://refactoring.guru/design-patterns/strategy/java/example

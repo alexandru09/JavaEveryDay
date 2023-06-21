@@ -1,9 +1,9 @@
-package behavioralPatterns.strategy;
+package behavioral_patterns.strategy;
 
-import behavioralPatterns.strategy.order.Order;
-import behavioralPatterns.strategy.strategies.PayByCreditCard;
-import behavioralPatterns.strategy.strategies.PayByPayPal;
-import behavioralPatterns.strategy.strategies.PayStrategy;
+import behavioral_patterns.strategy.order.Order;
+import behavioral_patterns.strategy.strategies.PayByCreditCard;
+import behavioral_patterns.strategy.strategies.PayByPayPal;
+import behavioral_patterns.strategy.strategies.PayStrategy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

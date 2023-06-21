@@ -1,4 +1,4 @@
-package behavioralPatterns.iterator.profile;
+package behavioral_patterns.iterator.profile;
 
 import java.util.ArrayList;
 import java.util.HashMap;
