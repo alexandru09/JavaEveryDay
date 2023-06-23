@@ -1,19 +1,12 @@
 package misc.sealed_classes_and_interfaces;
 
-public non-sealed class Car extends Vehicle implements Service {
-    private final int numberOfSeats;
-
-    public Car(int numberOfSeats, String registrationNumber) {
-        super(registrationNumber);
-        this.numberOfSeats = numberOfSeats;
-    }
-
+public record Car(int numberOfSeats, String registrationNumber) implements Vehicle {
     public int getNumberOfSeats() {
         return numberOfSeats;
     }
 
     @Override
-    public int getMaxServiceIntervalInMonths() {
-        return 12;
+    public String getRegistrationNumber() {
+        return registrationNumber;
     }
 }
