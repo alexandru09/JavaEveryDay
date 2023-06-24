@@ -12,5 +12,12 @@ public class Demo {
         } else {
             throw new RuntimeException("Unknown instance of Vehicle.");
         }
+
+        // same as if-else above, but with pattern matching for switch
+        switch (vehicle) {
+            case Car c -> System.out.println(c.getNumberOfSeats());
+            case Truck t -> System.out.println(t.getLoadCapacity());
+            default -> throw new RuntimeException("Unknown instance of Vehicle.");
+        }
     }
 }
